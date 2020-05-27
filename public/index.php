@@ -15,7 +15,7 @@
 
 
   //on setup la requete
-  $request = new Request($_SERVER["REQUEST_URI"], 
+  $request = new $_REQUEST($_SERVER["REQUEST_URI"], 
                          $_SERVER["REQUEST_METHOD"], 
                          $_GET, 
                          $_POST);
