@@ -34,7 +34,7 @@ Rendez vous sur `http://localhost:8000`
 - Cloner votre repository localement  
 - Installez le projet  
 - Modifiez ce fichier pour y mettre votre nom dans la section "Rendu" ci-dessous
-- Faîtes un premier commit à l'issue de ce changement  
+- Faites un premier commit à l'issue de ce changement  
 - Push (pour vérifier que tout va bien)  
 - Corrigez les erreurs du projet  
 - Faîtes, dans la mesure du possible, 1 commit par erreur corrigée (les erreurs sont souvent en cascade)  
