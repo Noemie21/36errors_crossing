@@ -19,10 +19,7 @@ class Main extends General{
     $villagerFactory = new VillagerFactory($this->pdo);
     $villagers = $villagerFactory->get_all();
 
-    $villagerFactory = new VillagerFactory($this->pdo);
-    $villagers = $villagerFactory->get_all();
-
-
+    
     foreach ($villages as $village) {
       foreach ($villagers as $villager) {
         if($villager->village_id == $village->id){
